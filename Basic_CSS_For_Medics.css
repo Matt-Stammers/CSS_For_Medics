@@ -1,1 +1,45 @@
-# Note CSS is supposed to be used WITH HTML so alone this file won't be much use, but it explains the basic concepts
+/* Note CSS is supposed to be used WITH HTML so alone this file won't be much use, but it explains the basic concepts.
+Thus you need to use the HTML documents as well because HTML adds the content.
+
+First we need to make a link:
+This can be done by adding a link tag to the head of your HTML doc: <link rel="stylesheet" href="basic_css_for_medics.css">
+*/
+
+h1{
+  color: blue;
+}
+
+/* This will turn all headers which are h1 blue for instance */
+
+li{
+  color: green;
+}
+
+/* This will turn all list items green */
+
+h2{
+  color: rgb(253,96,0);
+}
+
+/* This will allow you to turn all the h2 headers bright orange - look at google colour picker
+The numbers are red,green,blue in that order thus rgb()*/
+
+h2{
+  color: rgba(253,96,0,0.4);
+}
+
+/* This will add whats called an alpha value - this makes the colour less opaque*/
+
+p{
+  color: #0895a8;
+}
+
+/* This will turn all paragraphs blue using a hex code - this is the most common method*/
+
+/* ok so now we will try backgrounds, borders and start using div and span tags */
+
+p{
+  color: #0895a9;
+}
+
+/* This will turn all paragraphs blue using a hex code */
