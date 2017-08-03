@@ -36,10 +36,72 @@ p{
 
 /* This will turn all paragraphs blue using a hex code - this is the most common method*/
 
-/* ok so now we will try backgrounds, borders and start using div and span tags */
+/* ok so now we will try backgrounds, borders and start using div and span */
 
-p{
-  color: #0895a9;
+body{
+  background: url:"http://www.holidaypic.c0m/wp-content/beach.png;
+  background-repeat: repeat
 }
 
-/* This will turn all paragraphs blue using a hex code */
+div{
+  background: blue;
+  border-color: red;
+  border-width: 5px;
+  border-style: dotted;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: pink;
+  border-color: green;
+  border-width: 5px;
+  border-style: dotted;
+}
+
+/* this will enable you to select only the div, body, span elements and use border as well 
+but note the global calls override the div - the p call makes it all yellow regardless
+urls can also be imported as can pictures */
+
+/* ok so using id tags and selectors 
+to select a div you need to name the class of the div: class="firstDiv" etc */
+
+/* then in the CSS document you can select specific elements */
+
+.firstDiv{
+  color: red;
+}
+
+.secondDiv{
+  color: orange;
+}
+
+/* for unique ids you need to use a hashtag */
+
+#uniueqID{
+  color: green;
+  text-decoration; line-through;
+}
+
+/* beware the asterix wildcard. It will override everything except unique ids */
+
+*{
+  color:black;
+}
+
+/* you can also select multiple more specific combinations of elements */
+
+h4 + ol{
+  border: 5px dotted purple;
+}
+
+/* this will only get ordered lists immediately after an h4 */
+
+li a[href="www.w3schools.com"]{
+  color: yellow;
+  border: 6px solid green;
+}
+
+/* this will select any anchor tags within a list which meet the nested list criteria for instance/*
