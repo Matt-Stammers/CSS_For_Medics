@@ -39,7 +39,7 @@ p{
 /* ok so now we will try backgrounds, borders and start using div and span */
 
 body{
-  background: url:"http://www.holidaypic.c0m/wp-content/beach.png;
+  background: url:"http://www.holidaypic.c0m/wp-content/beach.png";
   background-repeat: repeat
 }
 
@@ -105,3 +105,22 @@ li a[href="www.w3schools.com"]{
 }
 
 /* this will select any anchor tags within a list which meet the nested list criteria for instance/*
+
+/* ok so specificity now, it is how css works out a heirarchy on the page */
+
+li{
+  color:red;
+}
+
+
+.class{
+  color:red;
+}
+
+
+.id{
+  color:red;
+}
+
+/* as you ascend the heirarchy the more specific the item the higher its priority.
+however * declarations overcome classes - you can look this all up on design shack */
