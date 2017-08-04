@@ -1,0 +1,49 @@
+/* Fonts */
+
+h1{
+  font-family: "Arial";
+}
+
+p{
+  font-family: "sans-serif";
+}
+
+body{
+  font-size: 12px;
+}
+
+#two{
+  font-size: 2.0em;
+}
+
+/* 1em = 16px - default becomes 1 em, 2em = double */
+
+p{
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* different OS's come with different fonts check out the wikis or dans tools to find out
+you ca download them from google fonts this will give you the embed codes straight to the html head*/
+
+h1{
+  font-family: cursive; "font" /*this will be specific to the font */;
+}
+
+/* box model */
+
+#top{
+  border: 5px solid green;
+  width: 30%;
+  text-align: centre;
+  /*top,right,bottom,left - or call auto which will keep it centred*/
+  margin: 12px, 10px, 15px, 20px;
+}
+
+#bottom{
+  border: 5px solid blue;
+  width: 50%;
+  padding: 100px;
+  text-align: centre;
+}
